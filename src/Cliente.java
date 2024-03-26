@@ -25,6 +25,7 @@ public class Cliente {
                 System.out.println("Computador da marca: " + computadores[i].marca);
                 System.out.println("Preço: " + computadores[i].preco);
                 System.out.println("Configurações:");
+                System.out.println("Sistema Operacional: " + sistemaOperacional.nome + " " + sistemaOperacional.tipo + " bits");
                 for(int j = 0; j < 3; j++){
                     System.out.println(computadores[i].hardwaresBasicos[j].nome + " " + computadores[i].hardwaresBasicos[j].capacidade);
                 }
